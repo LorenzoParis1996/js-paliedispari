@@ -12,3 +12,13 @@ function wordPalindrome(word) {
 
     return reverse;
 }
+
+let reversedWord = wordPalindrome(word); /*word is not defined*/
+
+console.log(reversedWord, userWord);
+
+if (userWord === reversedWord) {
+    console.log(userWord + ' è palindroma');
+} else {
+    console.log(userWord + ' non è palindroma');
+}
