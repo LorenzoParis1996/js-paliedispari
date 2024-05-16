@@ -2,6 +2,10 @@ Palidroma
 Chiedere all’utente di inserire una parola
 Creare una funzione per capire se la parola inserita è palindroma
 
+- creo prompt in cui si chiede una parola
+- creo funzione in cui si usa un ciclo for per iterare la parola al contrario
+- creo condizioni per controllare in cui la parola sia palindroma o no
+
 
 Pari e Dispari
 L’utente sceglie pari o dispari e inserisce un numero da 1 a 5.
