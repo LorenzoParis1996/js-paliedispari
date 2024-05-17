@@ -3,22 +3,21 @@ console.log(userWord);
 
 
 function wordPalindrome(word) {
-    const string = word.toString();
+
     let reverse = '';
 
-    for (let index = string.length - 1; index >= 0; index--) {
-        reverse += string[index];
+    for (let index = word.length - 1; index >= 0; index--) {
+        reverse += word[index];
     }
 
     return reverse;
 }
 
-let reversedWord = wordPalindrome(word); /*word is not defined*/
-
-console.log(reversedWord, userWord);
-
+let reversedWord = wordPalindrome(userWord); /*word is not defined*/
 if (userWord === reversedWord) {
     console.log(userWord + ' è palindroma');
 } else {
     console.log(userWord + ' non è palindroma');
 }
+
+
